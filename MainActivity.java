@@ -27,8 +27,8 @@ public class MainActivity extends Activity {
     private TextView textView2; //현재 URL을 출력할 TextView객체 생성 2
 
     // twilio의 SID, TOKEN 입력
-    public static final String ACCOUNT_SID = "AC6a3430ae792916d255e7544ab1bbc621";
-    public static final String AUTH_TOKEN = "b74b6406885810ce36cd4fc2b07a036a";
+    public static final String ACCOUNT_SID = "";
+    public static final String AUTH_TOKEN = "";
 
     // 앱 실행 시 생성되는 객체들
     @Override
