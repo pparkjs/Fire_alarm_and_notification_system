@@ -26,8 +26,8 @@ pwm = GPIO.PWM(buzzer_pin, 1) # 부저 핀 지정, 주파수 지정.
 
 # 메세지 전송을 위한 SID, 토큰, 클라이언트 객체 생성
 # <2> twillio 가입 후, 계정에서 아래의 내용들(sid, token)을 얻어야 함.
-account_sid = 'AC6a3430ae792916d255e7544ab1bbc621'
-auth_token = 'b74b6406885810ce36cd4fc2b07a036a'
+account_sid = ''
+auth_token = ''
 client = Client(account_sid, auth_token) # 
 
 # motion을 사용한 촬영/스트리밍 백그라운드에서 시작
@@ -102,8 +102,8 @@ while(1):
         # <3> twillio에 가입하여 등록된 가상 번호와 실제 휴대폰 번호를 입력해주어야 함
             message = client.messages.create(
                 body='화재가 감지되었습니다!', # 필요시 다른 메시지 입력
-                from_='+12136452815', # 가상 번호
-                to='+821066477508'  # 실제 수신 번호
+                from_='+', # 가상 번호
+                to='+82'  # 실제 수신 번호
             )
 
             pwm.start(50) # 사이렌을 위한 pwm제어
