@@ -41,5 +41,11 @@
 - *화재가 발생할 경우, 불꽃 감지 센서가 이를 감지하면 Twilio를 이용하여 사전에 등록한 번호로 화재 알림 메시지를 전송합니다. 동시에 사이렌을 작동시켜 주변에 화재 상태를 경고합니다.*
 
 #
+
+> ### *앱화면*
+![image](https://github.com/pparkjs/Fire_alarm_and_notification_system/assets/107859870/be2c3f48-cd3b-4174-a6fc-8aa9a21a77fd)
+
+#
+
 > ### *발표 영상*
 ### <a href="https://youtu.be/J1QYY1TWb64">화재 경보 및 알림 시스템 발표 영상 바로가기</a>
