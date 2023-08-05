@@ -20,9 +20,12 @@
 > ### *회로도*
 ![image](https://github.com/pparkjs/Fire_alarm_and_notification_system/assets/107859870/895d0396-b16d-4757-904d-aece26c4b98d)
 
+#
+
 > ### *프로젝트 흐름도*
 ![image](https://github.com/pparkjs/Fire_alarm_and_notification_system/assets/107859870/06a7f20c-d71a-476d-b055-b4affec5ce9c)
 
+#
 
 > ### *기능설명*
 - *라즈베리파이와 다양한 센서들을 활용하여 환경 모니터링 시스템을 개발한 작품입니다. 라즈베리파이에 연결된 웹캠, 불꽃 감지 센서, 온도 센서, 그리고 초음파 센서는 주변 환경의 상태를 감지합니다.*
